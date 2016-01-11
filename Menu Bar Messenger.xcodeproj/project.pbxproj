@@ -12,6 +12,7 @@
 		E7A67A2B1C4194B400E62A24 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7A67A291C4194B400E62A24 /* MainMenu.xib */; };
 		E7DB93D31C43FD480093E098 /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7DB93D11C43FD480093E098 /* TabViewController.swift */; };
 		E7DB93D41C43FD480093E098 /* TabViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7DB93D21C43FD480093E098 /* TabViewController.xib */; };
+		E7DB93D61C440A3D0093E098 /* EventMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7DB93D51C440A3D0093E098 /* EventMonitor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		E7A67A2C1C4194B400E62A24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E7DB93D11C43FD480093E098 /* TabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
 		E7DB93D21C43FD480093E098 /* TabViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TabViewController.xib; sourceTree = "<group>"; };
+		E7DB93D51C440A3D0093E098 /* EventMonitor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventMonitor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				E7A67A291C4194B400E62A24 /* MainMenu.xib */,
 				E7DB93D11C43FD480093E098 /* TabViewController.swift */,
 				E7DB93D21C43FD480093E098 /* TabViewController.xib */,
+				E7DB93D51C440A3D0093E098 /* EventMonitor.swift */,
 				E7A67A271C4194B400E62A24 /* Assets.xcassets */,
 				E7A67A2C1C4194B400E62A24 /* Info.plist */,
 			);
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7DB93D61C440A3D0093E098 /* EventMonitor.swift in Sources */,
 				E7DB93D31C43FD480093E098 /* TabViewController.swift in Sources */,
 				E7A67A261C4194B400E62A24 /* AppDelegate.swift in Sources */,
 			);
