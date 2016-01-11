@@ -14,8 +14,7 @@
         <customObject id="-3" userLabel="Application" customClass="NSObject"/>
         <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="Menu_Bar_Messenger" customModuleProvider="target">
             <connections>
-                <outlet property="statusMenu" destination="Zf2-3B-j7Z" id="KRv-2k-Kph"/>
-                <outlet property="viewPane" destination="J4D-k9-efN" id="WnP-au-3AQ"/>
+                <outlet property="statusMenu" destination="37G-LL-y3W" id="kOs-x6-mXt"/>
             </connections>
         </customObject>
         <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
@@ -668,13 +667,13 @@
                 </menuItem>
             </items>
         </menu>
-        <menu id="Zf2-3B-j7Z">
+        <menu id="37G-LL-y3W">
             <items>
-                <menuItem title="Messages" id="J4D-k9-efN">
+                <menuItem title="Messages" id="SsP-ru-V6C">
                     <modifierMask key="keyEquivalentModifierMask"/>
                 </menuItem>
             </items>
-            <point key="canvasLocation" x="386.5" y="246.5"/>
+            <point key="canvasLocation" x="362.5" y="229.5"/>
         </menu>
     </objects>
 </document>
