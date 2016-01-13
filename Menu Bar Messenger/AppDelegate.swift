@@ -17,7 +17,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     let statusItem = NSStatusBar.systemStatusBar().statusItemWithLength(-1)
 
     func applicationDidFinishLaunching(aNotification: NSNotification) {
-        let icon = NSImage(named: "statusIcon")
+        let icon = NSImage(named: "statusIconBlack")
         icon!.template = true   // Changes icon a bit if in dark mode
         statusItem.image = icon
         statusItem.action = Selector("togglePopover:")

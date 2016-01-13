@@ -7,12 +7,16 @@
 //
 
 import Cocoa
+import WebKit
 
 class TabViewController: NSViewController {
 
+    @IBOutlet weak var webView: WebView!
+    var notifications = 0
+
     override func viewDidLoad() {
+        webView.mainFrameURL = "https://app.groupme.com"
         super.viewDidLoad()
-        // Do view setup here.
     }
     
 }
