@@ -19,8 +19,9 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     func applicationDidFinishLaunching(aNotification: NSNotification) {
         let icon = NSImage(named: "statusIconBlack")
         icon!.template = true   // Changes icon a bit if in dark mode
-        statusItem.image = icon
-        statusItem.action = Selector("togglePopover:")
+        statusItem.button?.image = icon
+        statusItem.button?.action = #selector(AppDelegate.statusItemClicked(_:))
+        statusItem.button?.toolTip = "Menu Bar Messenger"
         
         popover.contentViewController = TabViewController(nibName: "TabViewController", bundle: nil)
         
@@ -54,6 +55,16 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     func closePopover(sender: AnyObject?) {
         popover.performClose(sender)
         eventMonitor?.stop()
+    }
+    
+    func statusItemClicked(sender: NSStatusBarButton!) {
+        let event : NSEvent! = NSApp.currentEvent!
+        if (event.type == NSEventType.LeftMouseUp) {
+            togglePopover(event)
+        }
+        else{
+            // insert right click menu function
+        }
     }
 }
 
